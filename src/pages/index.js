@@ -57,7 +57,7 @@ const IndexPage = ({location, data}) => {
               </a>
             </div>
             <div className="column">
-              <a href="https://streamline-re.ae/" rel="noopener noreferrer" target="_blank">
+              <a href="http://streamline-re.ae/" rel="noopener noreferrer" target="_blank">
                 <h3>Streamline</h3>
                 <StaticImage placeholder="blurred"  src={streamline} alt="streamline" height={200} />
               </a>
