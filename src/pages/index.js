@@ -24,7 +24,7 @@ const IndexPage = ({location, data}) => {
       <section className="section">
         <div className="container">
           <h1>Company Management & Lifestyle Developers</h1>
-          <StaticImage placeholder="blurred"  src={'../assets/media/banner.jpg'} alt="Oryx" width={700} />
+          <StaticImage placeholder="blurred" className="banner"  src={'../assets/media/banner.jpg'} alt="Oryx" width={700} />
           <p className="narrow">Milena's leadership team is comprised of the industry's most experienced leaders, who have secured our place as one of the Dubai greatest company management and lifestyle developers.</p>
         </div>
       </section>
@@ -32,35 +32,35 @@ const IndexPage = ({location, data}) => {
         <div className="container">
           <h2>Group Companies</h2>
           <div className="columns is-multiline">
-            <div className="column is-half">
-              <Link to="/">
+            <div className="column">
+              <a href="https://www.capriuae.net/" rel="noopener noreferrer" target="_blank">
                 <h3>Capri</h3>
-                <StaticImage placeholder="blurred"  src={capri} alt="Silvercraft" height={200} />
-              </Link>
+                <StaticImage placeholder="blurred"  src={capri} alt="capri" height={200} />
+              </a>
             </div>
             <div className="column">
-              <Link to="/">
-                <h3>Streamline</h3>
-                <StaticImage placeholder="blurred"  src={streamline} alt="Silvercraft" height={200} />
-              </Link>
-            </div>
-            <div className="column">
-              <Link to="/">
-                <h3>Yachtcruise</h3>
-                <StaticImage placeholder="blurred"  src={yachtcruise} alt="Oryx" height={200} />
-              </Link>
-            </div>
-            <div className="column">
-              <Link to="/">
-                <h3>Deepbluefishing</h3>
-                <StaticImage placeholder="blurred"  src={deepbluefishing} alt="Gulfcraft" height={200} />
-              </Link>
-            </div>
-            <div className="column">
-              <Link to="/">
+              <a href="https://milena.ae/" rel="noopener noreferrer" target="_blank">
                 <h3>Milena DCS</h3>
-                <StaticImage placeholder="blurred"  src={milenadcs} alt="Gulfcraft32" width={200} />
-              </Link>
+                <StaticImage placeholder="blurred"  src={milenadcs} alt="milenadcs" width={200} />
+              </a>
+            </div>
+            <div className="column">
+              <a href="https://yachtcruise.ae/" rel="noopener noreferrer" target="_blank">
+                <h3>Yachtcruise</h3>
+                <StaticImage placeholder="blurred"  src={yachtcruise} alt="yachtcruise" height={200} />
+              </a>
+            </div>
+            <div className="column">
+              <a href="https://deepbluefishing.ae/" rel="noopener noreferrer" target="_blank">
+                <h3>Deepbluefishing</h3>
+                <StaticImage placeholder="blurred"  src={deepbluefishing} alt="deepbluefishing" height={200} />
+              </a>
+            </div>
+            <div className="column">
+              <a href="https://streamline-re.ae/" rel="noopener noreferrer" target="_blank">
+                <h3>Streamline</h3>
+                <StaticImage placeholder="blurred"  src={streamline} alt="streamline" height={200} />
+              </a>
             </div>
           </div>
         </div>
