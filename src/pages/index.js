@@ -9,7 +9,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const capri = '../assets/media/capri.png';
 const deepbluefishing = '../assets/media/deepbluefishing.png';
 const streamline = '../assets/media/streamline.png';
-const milenadcs = '../assets/media/milena_dcs.png';
+const milenadcs = '../assets/media/milena_dcs2.png';
 const yachtcruise = '../assets/media/yachtcruise.png';
 
 
