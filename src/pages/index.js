@@ -40,49 +40,49 @@ const IndexPage = ({location, data}) => {
         <div className="container">
           <h2>Group Companies</h2>
           <div className="columns is-multiline is-mobile">
-            <div className="column is-one-fifth is-half-mobile">
+            <div className="column is-one-fifth-tablet is-half-mobile">
               <a href="http://streamline-re.ae/" rel="noopener noreferrer" target="_blank">
                 <h3>Baldinini</h3>
                 <StaticImage placeholder="blurred"  src={baldinini} alt="baldinini" height={200} />
               </a>
             </div>
-            <div className="column is-one-fifth is-half-mobile">
+            <div className="column is-one-fifth-tablet is-half-mobile">
               <a href="https://www.capriuae.net/" rel="noopener noreferrer" target="_blank">
                 <h3>Bekayz</h3>
                 <StaticImage placeholder="blurred"  src={bekayz} alt="capri" height={200} />
               </a>
             </div>
-            <div className="column is-one-fifth is-half-mobile">
+            <div className="column is-one-fifth-tablet is-half-mobile">
               <a href="https://www.capriuae.net/" rel="noopener noreferrer" target="_blank">
                 <h3>Elisabetta Franchi</h3>
                 <StaticImage placeholder="blurred"  src={elisabettafranchi} alt="capri" height={200} />
               </a>
             </div>
-            <div className="column is-one-fifth is-half-mobile">
+            <div className="column is-one-fifth-tablet is-half-mobile">
               <a href="https://www.capriuae.net/" rel="noopener noreferrer" target="_blank">
                 <h3>Giuseppe Zanotti</h3>
                 <StaticImage placeholder="blurred"  src={giuseppezanotti} alt="capri" height={200} />
               </a>
             </div>
-            <div className="column is-one-fifth is-half-mobile">
+            <div className="column is-one-fifth-tablet is-half-mobile">
               <a href="https://www.capriuae.net/" rel="noopener noreferrer" target="_blank">
                 <h3>Krisma</h3>
                 <StaticImage placeholder="blurred"  src={krisma} alt="capri" height={200} />
               </a>
             </div>
-            <div className="column is-one-fifth is-half-mobile">
+            <div className="column is-one-fifth-tablet is-half-mobile">
               <a href="https://milena.ae/" rel="noopener noreferrer" target="_blank">
                 <h3>Milena DCS</h3>
                 <StaticImage placeholder="blurred"  src={milenadcs} alt="milenadcs" width={200} />
               </a>
             </div>
-            <div className="column is-one-fifth is-half-mobile">
+            <div className="column is-one-fifth-tablet is-half-mobile">
               <a href="https://yachtcruise.ae/" rel="noopener noreferrer" target="_blank">
                 <h3>Yachtcruise</h3>
                 <StaticImage placeholder="blurred"  src={yachtcruise} alt="yachtcruise" height={200} />
               </a>
             </div>
-            <div className="column is-one-fifth is-half-mobile">
+            <div className="column is-one-fifth-tablet is-half-mobile">
               <a href="https://deepbluefishing.ae/" rel="noopener noreferrer" target="_blank">
                 <h3>Deepbluefishing</h3>
                 <StaticImage placeholder="blurred"  src={deepbluefishing} alt="deepbluefishing" height={200} />
