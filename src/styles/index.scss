@@ -5,11 +5,11 @@
 
 @import "~bulma/sass/utilities/initial-variables.sass";
 
-$bgDark: #141414;
-$textLight: #eee;
-
-$primary: #ce9c29;
-$link: #f5f5f5;
+$bgDark: hsl(241deg 6% 2%);
+$textLight: hsl(41deg 30% 70%);
+$header: hsl(41deg 47% 68%);
+$primary: #ce9b29;
+$link: #ce9b29;
 
 //$dark: $grey-darker;
 //$text: $grey-dark;

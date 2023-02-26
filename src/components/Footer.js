@@ -12,7 +12,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container">
         <div>
-          <div className="has-text-centered has-text-light">
+          <div className="has-text-centered">
             <p>Milena Group</p>
             <p>P.O. Box 88661</p>
             <p>Office #1112, Oynx Tower 2, The Greens</p>
@@ -21,7 +21,7 @@ export default function Footer() {
         </div>
 
         <nav className="level">
-          <div className="level-left has-text-light">
+          <div className="level-left">
             © Milena Group
           </div>
           <div className="level-right icon-links">

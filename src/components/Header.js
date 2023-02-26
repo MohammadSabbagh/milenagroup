@@ -24,7 +24,7 @@ export default function Header({onOpenQuote}) {
 
             <div className="navbar-brand">
               <Link to="/" className="logo-link">
-                <Logo id="logo" />
+                <Logo className="logo" /><Logo className="logo logo-blur" />
               </Link>
               {/*<div
                 className={`navbar-burger burger ${open && 'is-active'}`}

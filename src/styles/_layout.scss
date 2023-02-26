@@ -10,7 +10,7 @@
 }
 
 body{
-  //font-size: 20px;
+  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,21 +20,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1{
-  font-size: 2.5rem;
-  line-height: 1;
-  font-weight: 300;
-  letter-spacing: 2px;
-  color: #fff;
+  font-size: 1.75rem;
+  line-height: 1.2;
+  font-weight: 500;
+  color: $header;
   text-align: center;
-  padding-bottom: 3rem;
+  padding-bottom: 1em;
+  //text-shadow: 0 0 4px currentcolor;
 }
 
 h2{
   text-align: center;
-  font-size: 2rem;
-  font-weight: 300;
-  padding-bottom: 1rem;
-  color: $yellow;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 1em;
+  color: $header;
 }
 
 h3{
@@ -45,7 +45,7 @@ h3{
 
 section{
   text-align: center;
-  font-size: 1.5rem;
+  //font-size: 1.5rem;
 }
 
 p{
@@ -55,12 +55,23 @@ p{
 
 .banner{
   text-align: center;
-  margin-bottom: 2rem;
-  filter: brightness(0.75);
+  margin: 2rem 0;
+  filter: brightness(0.75) sepia(.5);
 }
 
-#companies h3{
-  display: none;
+.header-text{
+  font-size: 1.125rem;
+}
+
+#companies{
+  h3{
+    display: none;
+  }
+  .gatsby-image-wrapper{
+      filter: brightness(0.8) sepia(.7);
+      width: 60%;
+  }
+
 }
 
 .contacts{
