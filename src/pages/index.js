@@ -13,6 +13,7 @@ const streamline = '../assets/media/streamline.png';
 const milenadcs = '../assets/media/milena_dcs2.png';
 const yachtcruise = '../assets/media/yachtcruise.png';
 
+const thegivingmovement = '../assets/media/thegivingmovement.png';
 const baldinini = '../assets/media/baldinini.png';
 const bekayz = '../assets/media/bekayz.png';
 const elisabettafranchi = '../assets/media/elisabettafranchi.png';
@@ -41,33 +42,39 @@ const IndexPage = ({location, data}) => {
           <h2>Group Companies</h2>
           <div className="columns is-multiline is-mobile">
             <div className="column is-one-fifth-tablet is-half-mobile">
-              <a href="http://streamline-re.ae/" rel="noopener noreferrer" target="_blank">
+              <a href="https://thegivingmovement.com" rel="noopener noreferrer" target="_blank">
+                <h3>The Giving Movement</h3>
+                <StaticImage placeholder="blurred"  src={thegivingmovement} alt="thegivingmovement" height={200} />
+              </a>
+            </div>
+            <div className="column is-one-fifth-tablet is-half-mobile">
+              <a href="https://www.baldinini-shop.com" rel="noopener noreferrer" target="_blank">
                 <h3>Baldinini</h3>
                 <StaticImage placeholder="blurred"  src={baldinini} alt="baldinini" height={200} />
               </a>
             </div>
             <div className="column is-one-fifth-tablet is-half-mobile">
-              <a href="https://www.capriuae.net/" rel="noopener noreferrer" target="_blank">
+              <a href="https://bekayz.com" rel="noopener noreferrer" target="_blank">
                 <h3>Bekayz</h3>
-                <StaticImage placeholder="blurred"  src={bekayz} alt="capri" height={200} />
+                <StaticImage placeholder="blurred"  src={bekayz} alt="bekayz" height={200} />
               </a>
             </div>
             <div className="column is-one-fifth-tablet is-half-mobile">
-              <a href="https://www.capriuae.net/" rel="noopener noreferrer" target="_blank">
+              <a href="https://www.elisabettafranchi.com" rel="noopener noreferrer" target="_blank">
                 <h3>Elisabetta Franchi</h3>
-                <StaticImage placeholder="blurred"  src={elisabettafranchi} alt="capri" height={200} />
+                <StaticImage placeholder="blurred"  src={elisabettafranchi} alt="elisabettafranchi" height={200} />
               </a>
             </div>
             <div className="column is-one-fifth-tablet is-half-mobile">
-              <a href="https://www.capriuae.net/" rel="noopener noreferrer" target="_blank">
+              <a href="https://www.giuseppezanotti.com/ae/" rel="noopener noreferrer" target="_blank">
                 <h3>Giuseppe Zanotti</h3>
-                <StaticImage placeholder="blurred"  src={giuseppezanotti} alt="capri" height={200} />
+                <StaticImage placeholder="blurred"  src={giuseppezanotti} alt="giuseppezanotti" height={200} />
               </a>
             </div>
             <div className="column is-one-fifth-tablet is-half-mobile">
-              <a href="https://www.capriuae.net/" rel="noopener noreferrer" target="_blank">
+              <a href="https://krisma.com/en/" rel="noopener noreferrer" target="_blank">
                 <h3>Krisma</h3>
-                <StaticImage placeholder="blurred"  src={krisma} alt="capri" height={200} />
+                <StaticImage placeholder="blurred"  src={krisma} alt="krisma" height={200} />
               </a>
             </div>
             <div className="column is-one-fifth-tablet is-half-mobile">

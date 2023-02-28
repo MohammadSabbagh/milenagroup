@@ -56,7 +56,7 @@ p{
 .banner{
   text-align: center;
   margin: 2rem 0;
-  filter: brightness(0.75) sepia(.5);
+  //filter: brightness(0.75) sepia(.5);
 }
 
 .header-text{
@@ -68,7 +68,7 @@ p{
     display: none;
   }
   .gatsby-image-wrapper{
-      filter: brightness(0.8) sepia(.7);
+      //filter: brightness(0.8) sepia(.7);
       width: 60%;
   }
 
