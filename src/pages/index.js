@@ -34,7 +34,6 @@ const IndexPage = ({location, data}) => {
           <h1>Management & Lifestyle</h1>
           <p className="narrow header-text">Our team is comprised of the industry's most experienced leaders, who have secured our place as one of the Dubai greatest company management and lifestyle developers.</p>
           <StaticImage placeholder="blurred" className="banner"  src={banner} alt="Oryx" width={700} />
-
         </div>
       </section>
       <section className="section" id="companies">
@@ -77,18 +76,18 @@ const IndexPage = ({location, data}) => {
                 <StaticImage placeholder="blurred"  src={krisma} alt="krisma" height={200} />
               </a>
             </div>
-            <div className="column is-one-fifth-tablet is-half-mobile">
+            {/* <div className="column is-one-fifth-tablet is-half-mobile">
               <a href="https://milena.ae/" rel="noopener noreferrer" target="_blank">
                 <h3>Milena DCS</h3>
                 <StaticImage placeholder="blurred"  src={milenadcs} alt="milenadcs" width={200} />
               </a>
-            </div>
-            <div className="column is-one-fifth-tablet is-half-mobile">
+            </div> */}
+            {/* <div className="column is-one-fifth-tablet is-half-mobile">
               <a href="https://yachtcruise.ae/" rel="noopener noreferrer" target="_blank">
                 <h3>Yachtcruise</h3>
                 <StaticImage placeholder="blurred"  src={yachtcruise} alt="yachtcruise" height={200} />
               </a>
-            </div>
+            </div> */}
             <div className="column is-one-fifth-tablet is-half-mobile">
               <a href="https://deepbluefishing.ae/" rel="noopener noreferrer" target="_blank">
                 <h3>Deepbluefishing</h3>
